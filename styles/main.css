@@ -49,3 +49,14 @@ body, input, button, textarea {
     width: 90vw;
     max-width: 700px;
 }
+
+.total-connections{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-connections img{
+    margin-left: 0.8rem;
+}
