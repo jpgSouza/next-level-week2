@@ -40,14 +40,15 @@ body {
 }
 
 body, input, button, textarea {
-    font: 500 1.6;
+    font-weight: 500;
+    font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
     color: var(--color-text-base);
 }
 
 #container {
     width: 90vw;
-    max-width: 700px;
+    max-width: 500px;
 }
 
 @media ( min-width: 700px ) {
