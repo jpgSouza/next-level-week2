@@ -3,52 +3,6 @@
     height: 100vh;
 }
 
-.page-header {
-    background-color: var(--color-primary);
-
-    display: flex;
-    flex-direction: column;
-}
-
-.page-header .top-bar-container {
-    width: 90%;
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 1.6rem 0;
-}
-
-.page-header .top-bar-container a{
-    height: 3.2rem;
-    transition: opacity 0.2s;
-}
-
-.page-header .top-bar-container a:hover{
-    opacity: 0.6;
-}
-
-.page-header .top-bar-container img {
-    height: 1.6rem;
-}
-
-.page-header .header-content {
-    width: 90%;
-    margin: 3.2rem auto;
-
-    position: relative;
-}
-
-.page-header .header-content strong {
-    font-weight: 700;
-    font-size: 3.6rem;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-title-in-primary);
-    line-height: 4.2rem;
-}
-
 #search-teachers {
     margin-top: 3.2rem;
 }
@@ -83,41 +37,6 @@
 #search-teachers button:hover {
     background-color: var(--color-secondary-dark);
     box-shadow: 2px 2px 2px 1px #00000033;
-}
-
-.select-block label, .input-block label {
-    font-size: 1.4rem;
-    color: var(--color-text-complement);
-}
-
-.input-block input, .select-block select {
-    width: 100%;
-    height: 5.6rem;
-    margin-top: 0.8rem;
-    border-radius: 0.8rem;
-    background: var(--color-input-background);
-    border: 1px solid var(--color-line-in-white);
-    outline: 0;
-    padding: 0 1.6rem;
-    font-size: 1.6rem;
-    font-family: 'Montserrat', sans-serif;
-    box-shadow: 2px 2px 2px 1px #00000033;
-}
-
-.input-block {
-    position: relative;
-}
-
-.input-block:focus-within::after {
-    content: "";
-
-    width: calc(100% - 3.2rem);
-    height: 2px;
-    background: var(--color-primary-light);
-    position: absolute;
-    left: 1.6rem;
-
-    bottom: 0;
 }
 
 #page-study main {
