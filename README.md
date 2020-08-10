@@ -34,6 +34,12 @@ git clone https://github.com/jpgSouza/next-level-week2.git
 npm run dev
 ```
 
+### Navegador
+- Porta utilizada
+```sh
+localhost:5500
+```
+
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
