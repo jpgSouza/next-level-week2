@@ -3,7 +3,7 @@ const express = require('express')
 const server = express()
 const nunjucks = require('nunjucks');
 
-const { pageLanding, pageStudy, pageGiveClasses, saveClasses } = require('./pages')
+const { pageLanding, pageStudy, pageGiveClasses, saveClasses, pageConfirmation } = require('./pages')
 
 // static files (css, html, images)
 server.use(express.static("public"));
@@ -22,6 +22,7 @@ server.get("/", pageLanding);
 server.get("/study", pageStudy);
 server.get("/give-classes", pageGiveClasses);
 server.post("/save-classes", saveClasses)
+server.get("/confirmation", pageConfirmation)
 
 // server port
 server.listen(5500);

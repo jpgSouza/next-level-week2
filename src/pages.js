@@ -91,9 +91,14 @@ async function saveClasses(req, res) {
 
 }
 
+function pageConfirmation(req, res){
+    return res.render("confirmation.html")
+}
+
 module.exports = {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageConfirmation
 }

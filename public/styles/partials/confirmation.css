@@ -1,0 +1,40 @@
+#page-confirmation {
+    background: var(--color-primary);
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-confirmation #container {
+    color: var(--color-title-in-primary);
+    margin-bottom: 5.6rem;
+}
+
+#page-confirmation #container .background{
+    width: 100%;
+    height: 100%;
+}
+
+.icon-container {
+    text-align: center;
+    position: absolute;
+    width: 47.9rem;
+    height: 28.9rem;
+    top: 20.3rem;
+    left: 48.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    /* depois realizar a margem para o botão */
+}
+
+.icon-container h2 {
+    font-weight: 700;
+    font-size: 5.4rem;
+    margin-bottom: 2.4rem;
+    margin-top: 3.6rem;
+}
+
+.icon-container p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--color-line-in-white);
+}
