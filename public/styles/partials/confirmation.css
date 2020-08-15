@@ -38,3 +38,34 @@
     line-height: 2.6rem;
     color: var(--color-line-in-white);
 }
+
+.confirmation-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 16rem;
+}
+
+.confirmation-button a {
+    width: 17.6rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.4s;
+
+    background: var(--color-secondary);
+    color: var(--color-button-text);
+}
+
+.confirmation-button a:hover {
+    background: var(--color-secondary-dark);
+}
