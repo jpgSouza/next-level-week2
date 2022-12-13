@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jpgSouza/next-level-week2#readme",
   "dependencies": {
     "async": "^3.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nunjucks": "^3.2.2",
     "sqlite-async": "^1.1.0"
   },
